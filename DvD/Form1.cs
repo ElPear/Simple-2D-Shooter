@@ -7,7 +7,7 @@ namespace DvD
             InitializeComponent();
             DoubleBuffered = true;
         }
-        int bullets = 9;
+        int bullets = 11;
         public partial class NewPicBox : PictureBox
         {
             private int Xvalue = 0;
