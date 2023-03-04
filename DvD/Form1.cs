@@ -30,7 +30,7 @@ namespace DvD
             }
 
         }
-        bool Colliding(NewPicBox item1, NewPicBox item2)
+        private static bool Colliding(Control item1, Control item2)
         {
             if (item1.Location.X + item1.Width < item2.Location.X)
                 return false;
